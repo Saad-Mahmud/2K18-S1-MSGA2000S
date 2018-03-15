@@ -1,3 +1,4 @@
+http://www.spoj.com/problems/POLYMUL/
 #include<bits/stdc++.h>
 using namespace std;
 #define loop(i,L,R) for(int i=(L);i<=(R);i++)
