@@ -20,8 +20,6 @@ int n, deg[mx];
 int sum, left_sum[mx],cnt[mx];
 bool valid;
 
-bool cmp(int a, int b) { return a > b; }
-
 bool solve() 
 {
     memset(cnt,0,sizeof cnt);
