@@ -27,7 +27,7 @@ bool solve()
     memset(cnt,0,sizeof cnt);
     loop(i,1,n)cnt[deg[i]]++;
     int cur=1;
-    loop(i,0,10000)while(cnt[i]--)deg[cur++]=i;
+    for(int i=10000;i>=0;i--)while(cnt[i]--)deg[cur++]=i;
     memset(left_sum,0,sizeof left_sum);
     for (int i = n; i >= 1; i--)left_sum[i]=left_sum[i + 1] + deg[i];
     int left=0,right;
